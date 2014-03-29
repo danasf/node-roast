@@ -1,0 +1,395 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid #666;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #222;
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #333;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+.rickshaw_graph .detail{pointer-events:none;position:absolute;top:0;z-index:2;background:rgba(0,0,0,.1);bottom:0;width:1px;transition:opacity .25s linear;-moz-transition:opacity .25s linear;-o-transition:opacity .25s linear;-webkit-transition:opacity .25s linear}.rickshaw_graph .detail.inactive{opacity:0}.rickshaw_graph .detail .item.active{opacity:1}.rickshaw_graph .detail .x_label{font-family:Arial,sans-serif;border-radius:3px;padding:6px;opacity:.5;border:1px solid #e0e0e0;font-size:12px;position:absolute;background:#fff;white-space:nowrap}.rickshaw_graph .detail .x_label.left{left:0}.rickshaw_graph .detail .x_label.right{right:0}.rickshaw_graph .detail .item{position:absolute;z-index:2;border-radius:3px;padding:.25em;font-size:12px;font-family:Arial,sans-serif;opacity:0;background:rgba(0,0,0,.4);color:#fff;border:1px solid rgba(0,0,0,.4);margin-left:1em;margin-right:1em;margin-top:-1em;white-space:nowrap}.rickshaw_graph .detail .item.left{left:0}.rickshaw_graph .detail .item.right{right:0}.rickshaw_graph .detail .item.active{opacity:1;background:rgba(0,0,0,.8)}.rickshaw_graph .detail .item:after{position:absolute;display:block;width:0;height:0;content:"";border:5px solid transparent}.rickshaw_graph .detail .item.left:after{top:1em;left:-5px;margin-top:-5px;border-right-color:rgba(0,0,0,.8);border-left-width:0}.rickshaw_graph .detail .item.right:after{top:1em;right:-5px;margin-top:-5px;border-left-color:rgba(0,0,0,.8);border-right-width:0}.rickshaw_graph .detail .dot{width:4px;height:4px;margin-left:-2px;margin-top:-2px;border-radius:5px;position:absolute;box-shadow:0 0 2px rgba(0,0,0,.6);background:#fff;border-width:2px;border-style:solid;display:none;background-clip:padding-box}.rickshaw_graph .detail .dot.active{display:block}.rickshaw_graph{position:relative}.rickshaw_graph svg{display:block;overflow:hidden}.rickshaw_graph .x_tick{position:absolute;top:0;bottom:0;width:0;border-left:1px dotted rgba(0,0,0,.2);pointer-events:none}.rickshaw_graph .x_tick .title{position:absolute;font-size:12px;font-family:Arial,sans-serif;opacity:.5;white-space:nowrap;margin-left:3px;bottom:1px}.rickshaw_annotation_timeline{height:1px;border-top:1px solid #e0e0e0;margin-top:10px;position:relative}.rickshaw_annotation_timeline .annotation{position:absolute;height:6px;width:6px;margin-left:-2px;top:-3px;border-radius:5px;background-color:rgba(0,0,0,.25)}.rickshaw_graph .annotation_line{position:absolute;top:0;bottom:-6px;width:0;border-left:2px solid rgba(0,0,0,.3);display:none}.rickshaw_graph .annotation_line.active{display:block}.rickshaw_graph .annotation_range{background:rgba(0,0,0,.1);display:none;position:absolute;top:0;bottom:-6px}.rickshaw_graph .annotation_range.active{display:block}.rickshaw_graph .annotation_range.active.offscreen{display:none}.rickshaw_annotation_timeline .annotation .content{background:#fff;color:#000;opacity:.9;padding:5px;box-shadow:0 0 2px rgba(0,0,0,.8);border-radius:3px;position:relative;z-index:20;font-size:12px;padding:6px 8px 8px;top:18px;left:-11px;width:160px;display:none;cursor:pointer}.rickshaw_annotation_timeline .annotation .content:before{content:"\25b2";position:absolute;top:-11px;color:#fff;text-shadow:0 -1px 1px rgba(0,0,0,.8)}.rickshaw_annotation_timeline .annotation.active,.rickshaw_annotation_timeline .annotation:hover{background-color:rgba(0,0,0,.8);cursor:none}.rickshaw_annotation_timeline .annotation .content:hover{z-index:50}.rickshaw_annotation_timeline .annotation.active .content{display:block}.rickshaw_annotation_timeline .annotation:hover .content{display:block;z-index:50}.rickshaw_graph .y_axis,.rickshaw_graph .x_axis_d3{fill:none}.rickshaw_graph .y_ticks .tick,.rickshaw_graph .x_ticks_d3 .tick{stroke:rgba(0,0,0,.16);stroke-width:2px;shape-rendering:crisp-edges;pointer-events:none}.rickshaw_graph .y_grid .tick,.rickshaw_graph .x_grid_d3 .tick{z-index:-1;stroke:rgba(0,0,0,.2);stroke-width:1px;stroke-dasharray:1 1}.rickshaw_graph .y_grid .tick[data-y-value="0"]{stroke-dasharray:1 0}.rickshaw_graph .y_grid path,.rickshaw_graph .x_grid_d3 path{fill:none;stroke:none}.rickshaw_graph .y_ticks path,.rickshaw_graph .x_ticks_d3 path{fill:none;stroke:gray}.rickshaw_graph .y_ticks text,.rickshaw_graph .x_ticks_d3 text{opacity:.5;font-size:12px;pointer-events:none}.rickshaw_graph .x_tick.glow .title,.rickshaw_graph .y_ticks.glow text{fill:#000;color:#000;text-shadow:-1px 1px 0 rgba(255,255,255,.1),1px -1px 0 rgba(255,255,255,.1),1px 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1),0 -1px 0 rgba(255,255,255,.1),1px 0 0 rgba(255,255,255,.1),-1px 0 0 rgba(255,255,255,.1),-1px -1px 0 rgba(255,255,255,.1)}.rickshaw_graph .x_tick.inverse .title,.rickshaw_graph .y_ticks.inverse text{fill:#fff;color:#fff;text-shadow:-1px 1px 0 rgba(0,0,0,.8),1px -1px 0 rgba(0,0,0,.8),1px 1px 0 rgba(0,0,0,.8),0 1px 0 rgba(0,0,0,.8),0 -1px 0 rgba(0,0,0,.8),1px 0 0 rgba(0,0,0,.8),-1px 0 0 rgba(0,0,0,.8),-1px -1px 0 rgba(0,0,0,.8)}.rickshaw_legend{font-family:Arial;font-size:12px;color:#fff;background:#404040;display:inline-block;padding:12px 5px;border-radius:2px;position:relative}.rickshaw_legend:hover{z-index:10}.rickshaw_legend .swatch{width:10px;height:10px;border:1px solid rgba(0,0,0,.2)}.rickshaw_legend .line{clear:both;line-height:140%;padding-right:15px}.rickshaw_legend .line .swatch{display:inline-block;margin-right:3px;border-radius:2px}.rickshaw_legend .label{margin:0;white-space:nowrap;display:inline;font-size:inherit;background-color:transparent;color:inherit;font-weight:400;line-height:normal;padding:0;text-shadow:none}.rickshaw_legend .action:hover{opacity:.6}.rickshaw_legend .action{margin-right:.2em;font-size:10px;opacity:.2;cursor:pointer;font-size:14px}.rickshaw_legend .line.disabled{opacity:.4}.rickshaw_legend ul{list-style-type:none;margin:0;padding:0;margin:2px;cursor:pointer}.rickshaw_legend li{padding:0 0 0 2px;min-width:80px;white-space:nowrap}.rickshaw_legend li:hover{background:rgba(255,255,255,.08);border-radius:3px}.rickshaw_legend li:active{background:rgba(255,255,255,.2);border-radius:3px}

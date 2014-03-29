@@ -1,0 +1,22 @@
+{
+  "name": "node-roast",
+  "version": "0.0.2",
+  "description": "Plot time series data from a temperature probe with node",
+  "main": "main.js",
+  "dependencies": {
+    "socket.io": "~0.9.16",
+    "johnny-five": "~0.7.30"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "coffee",
+    "arduino",
+    "roaster"
+  ],
+  "author": "Dana S",
+  "license": "ISC"
+}
