@@ -9,7 +9,7 @@ Features I hope to add in the future: ability to adjust time scale and download 
 
 Instructions
 ------------
-* Connect your themocouple, amplifier and Arduino.
+* Connect your thermocouple, amplifier and Arduino.
 * In the Arduino IDE, choose `Examples -> Firmata -> Firmata Standard` and upload to your board
 * Download this repo and run `npm install` to grab dependencies.
 * Run with `node main.js` to start logging. Visit http://localhost:8000 to view the chart 
